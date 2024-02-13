@@ -78,8 +78,8 @@ class Login extends Component {
              <Labellements2  htmlFor="checkbox" isBlack={blacktheme}  className="ml-1">SHOW PASSWORD</Labellements2>
                </div>
               <ChangeButton onClick={onClickChangetheme} type="submit">Login</ChangeButton>
+              {showSubmitError && <ErrorrMessage>*{errorMsg}</ErrorrMessage>}
              </LoginCard>
-             {showSubmitError && <ErrorrMessage>*{errorMsg}</ErrorrMessage>}
             </form>
            </MainContainer>
          );
