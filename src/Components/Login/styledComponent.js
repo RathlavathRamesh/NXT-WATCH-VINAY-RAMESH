@@ -45,6 +45,9 @@ export const LogoImage=styled.img`
    margin-bottom:5vh;
 `
 
+export const ErrorrMessage=styled.p`
+   color:red;
+`
 export const LoginCard=styled.div`
    display:flex;
    flex-direction:column;
